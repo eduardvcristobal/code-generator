@@ -1,0 +1,21 @@
+package com.cict.core.base;
+
+public enum QueryOperator {
+    GREATER_THAN,
+    GREATER_THAN_OR_EQUAL,
+    LESS_THAN_OR_EQUAL,
+    GREATER_THAN_FIELD,
+    LESS_THAN,
+    LESS_THAN_FIELD,
+    EQUALS,
+    NOT_EQUALS,
+    LIKE,
+    IN,
+    BETWEEN,
+    GREATER_THAN_OR_EQUAL_TO,
+    GREATER_THAN_OR_EQUAL_TO_FIELD,
+    LESS_THAN_OR_EQUAL_TO,
+    LESS_THAN_OR_EQUAL_TO_FIELD,
+    IS_NOT_NULL,
+    IS_NULL
+}
